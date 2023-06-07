@@ -1,13 +1,17 @@
+import { useState } from "react";
 
 
 const Navbar = () => {
+
+    const [show, setShow] = useState(false);
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
-            <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div className="container-fluid ">
+                <button  onClick={() => setShow(!show)} className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className={show ? "collapse navbar-collapse show d-md-flex ": "collapse navbar-collapse "} id="navbarSupportedContent">
                     <div className="input-group">
                         <form className="d-flex border px-2 rounded-pill">
                             <i className="fs-4 bi-search"></i>
