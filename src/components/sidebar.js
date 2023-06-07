@@ -7,7 +7,7 @@ const Sidebar = () => {
         <div className="container-fluid ">
             <div className="row flex-nowrap">
                 <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white text-dark">
-                    <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+                    <div className="position-relative d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
                         <a href="/" className="d-flex align-items-center pb-3  mb-md-0 me-md-auto text-dark  text-decoration-none ">
                             <div className="badge w-25 h-25 rounded-circle bg-primary text-primary">.</div><span className="fs-5 d-none mx-1 d-sm-inline text-align-center">Compute</span>
                         </a>
@@ -48,8 +48,6 @@ const Sidebar = () => {
                         </ul>
                         <hr></hr>
                         <div className="dropdown pb-3">
-                           
-
                             <a href="#" className="nav-link text-dark align-middle">
                                 <i className="fs-4 bi-box-arrow-right"></i> <span className="ms-1 d-none d-sm-inline">Logout</span>
                             </a>
