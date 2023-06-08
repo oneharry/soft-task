@@ -1,5 +1,3 @@
-
-
 const Display =() => {
     return (
         <div className="bg-light rounded-start">
