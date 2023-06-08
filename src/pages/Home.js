@@ -13,7 +13,7 @@ const Home = () => {
                         </a>
                         <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center text-dark align-items-sm-start" id="menu">
                             <li className="nav-item ">
-                                <a href="#" className="nav-link mb-2 align-middle text-dark">
+                                <a href="/" className="nav-link mb-2 align-middle text-dark">
                                     <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline">Board</span>
                                 </a>
                             </li>
@@ -22,7 +22,7 @@ const Home = () => {
                                     <i className="fs-4 bi-calendar4-event"></i> <span className="ms-1 d-none d-sm-inline">Plan Schedule</span> </a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link mb-2 align-middle active ">
+                                <a href="/" className="nav-link mb-2 align-middle active ">
                                     <i className="fs-4 bi-bar-chart"></i> <span className="ms-1 d-none d-sm-inline">Reporting</span></a>
                             </li>
                             <li>
@@ -34,21 +34,21 @@ const Home = () => {
                                     <i className="fs-4 bi-people"></i> <span className="ms-1 d-none d-sm-inline">Team Member</span> </a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link text-dark mb-2 align-middle">
+                                <a href="/" className="nav-link text-dark mb-2 align-middle">
                                     <i className="fs-4 bi-globe-europe-africa"></i> <span className="ms-1 d-none d-sm-inline">Tools Plugin</span> </a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link text-dark mb-1 align-middle">
+                                <a href="/" className="nav-link text-dark mb-1 align-middle">
                                     <i className="fs-4 bi-activity"></i> <span className="ms-1 d-none d-sm-inline">Roadmap</span> </a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link text-dark align-middle">
+                                <a href="/" className="nav-link text-dark align-middle">
                                     <i className="fs-4 bi-sliders"></i> <span className="ms-1 d-none d-sm-inline">Settings</span> </a>
                             </li>
                         </ul>
                         <hr></hr>
                         <div className="dropdown pb-3">
-                            <a href="#" className="nav-link text-dark align-middle">
+                            <a href="/" className="nav-link text-dark align-middle">
                                 <i className="fs-4 bi-box-arrow-right"></i> <span className="ms-1 d-none d-sm-inline">Logout</span>
                             </a>
                         </div>

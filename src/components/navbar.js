@@ -23,14 +23,14 @@ const Navbar = () => {
                             <i className="fs-4 bi-bell"></i>
                         </li>
                         <li>
-                            <a href="#" className="d-flex align-items-center text-white text-decoration-none" >
+                            <p className="d-flex align-items-center text-white text-decoration-none" >
                                 <img src="https://github.com/mdo.png" alt="hugenerd" width="50" height="50" className="rounded-circle" />
                                 <div class=" text-dark text-start px-1">
                                     <h6 className="my-0">Anna Newman</h6>
                                     <p className="my-0">Head HR</p>
                                 </div>
             
-                            </a>
+                            </p>
                         </li>
                     </ul>
                 </div>
